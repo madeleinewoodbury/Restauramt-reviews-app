@@ -1,3 +1,14 @@
+// Make sure Service Worker is supported
+if ("serviceWorker" in navigator) {
+  // Register SW on page load
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("../sw.js")
+      .then(reg => console.log("Service Worker: Registered"))
+      .catch(err => console.log(`Service Worker: Error: ${err}`));
+  });
+}
+
 let restaurants, neighborhoods, cuisines;
 var newMap;
 var markers = [];
