@@ -11,11 +11,11 @@ This project is created as part of Udacity's Front-End Nanodegree. The project i
 These instructions are for running the application locally:
 
 1. [Download zip](https://github.com/madeleinewoodbury/restaurant-reviews-app/archive/master.zip)
-   Extract zip file
-2. Using the terminal, navigate to the folder in order ro set up a simple HTTP server. Make sure python is installed on your computer.
+2. Extract zip file
+3. Using the terminal, navigate to the folder in order ro set up a simple HTTP server. Make sure python is installed on your computer.
    - To start the server with Python 2: `-m SimpleHTTPServer 8000`
    - To start the server with Python 3: `python3 -m http.server 8000`
-3. When the server is running: navigate to `http://localhost:8000`.
+4. When the server is running: navigate to `http://localhost:8000`.
 
 ## Dependencies
 
